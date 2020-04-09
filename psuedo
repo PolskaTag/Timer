@@ -1,0 +1,18 @@
+>> implementation 1:
+
+Event listener to watch for a click on 'start' button
+    Draw a full border around timer
+    start the count down
+    Update border for each unit of time
+    Update text for each unit of time
+    If timer reaches 0
+        Reset border
+        resaet internal timer to get ready for next.
+
+
+class Timer
+    constructor(durationInput, startButton, pauseButton)
+    start()
+    pause()
+    onDurationChange()
+    tick()
